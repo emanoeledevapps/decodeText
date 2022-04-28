@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="icon" href="img/logo.png" type="image/png">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+        <title>DecodeText | Decodificador de textos</title>
+    </head>
+    <body>
+        <header>
+            <img src="img/logo.png">
+            <h1>DecodeText</h1>
+        </header>
+        <main>
+            <div class="main-container">
+                <div class="container-1">
+                    <textarea type="text" placeholder="Digite seu texto aqui" class="input-entrada"></textarea>
+
+                    <p class="instrucoes">ⓘ Apenas letras minúsculas e sem ascento.</p>
+                    <div class="area-btn-1">
+                        <button id="btn-cripto" type="button">Criptografar</button>
+                        <button id="btn-descripto">Descriptografar</button>
+                    </div>
+                </div>
+                
+                <div class="container-2">
+                    <h2 class="tit-resultado">Resultado</h2>
+
+                    <div class="area-resultado-vazio">
+                        <img src="img/resultado-vazio.png" class="img-resultado-vazio">
+                        <h2>Nenhuma mensagem encontrada</h2>
+                        <p>Digite um texto que você deseja criptografar ou descriptografar</p>
+                    </div>
+
+                    <div class="area-resultado-ok">
+                        <textarea placeholder="Digite um texto e escolha a opção desejada" id="area-resultado"></textarea>
+                        <button class="btn-copiar">Copiar texto</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="container-footer">
+                <img src="img/logo.png">
+                <p>Desenvolvido por: Emanoel Augusto Freires - 2022</p>
+                <a href="https://www.linkedin.com/in/emanoel-augusto-515915233" target="_blank">
+                    <img src="img/linkedin.png" id="linkedin"> Emanoel Augusto
+                </a>
+            </div>
+        </footer>
+    </body>
+    <script src="js/home.js"></script>
+</html>
